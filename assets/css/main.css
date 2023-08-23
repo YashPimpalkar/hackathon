@@ -96,7 +96,7 @@ canvas {
  
 }
 .Nextech-header {
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 10rem;
   background: linear-gradient(90deg, #aeebca 10%, #d8f1c1 35%, rgb(8, 97, 0) 100%);
   -webkit-background-clip: text;
