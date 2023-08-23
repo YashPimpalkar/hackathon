@@ -104,14 +104,14 @@ canvas {
   color: transparent;
 }
 
-@media (max-width: 405px) {
+@media (max-width: 306px) {
   .Nextech-header {
       font-size: 2rem;
   }
 }
 
 
-@media (min-width: 406px)and (max-width: 576px) {
+@media (min-width: 307px)and (max-width: 576px) {
   .Nextech-header {
     margin-top:50px;
       font-size: 4rem;
