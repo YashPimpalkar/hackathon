@@ -78,23 +78,24 @@ ol li {
   list-style: none;
 }
 
-/* canvas {
+
+canvas {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 0;
-    height: 70vh;
-  width: 100vh;
+
 }
 
-.home {
+#home {
   position: relative;
   overflow: hidden;
   z-index: 1;
-} */
-
+  height: 100vh;
+ 
+}
 .Nextech-header {
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 10rem;
   background: linear-gradient(90deg, #aeebca 10%, #d8f1c1 35%, rgb(8, 97, 0) 100%);
   -webkit-background-clip: text;
