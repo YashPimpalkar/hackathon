@@ -78,7 +78,7 @@ ol li {
   list-style: none;
 }
 
-canvas {
+/* canvas {
   position: absolute;
   top: 0;
   left: 0;
@@ -91,7 +91,7 @@ canvas {
   position: relative;
   overflow: hidden;
   z-index: 1;
-}
+} */
 
 .Nextech-header {
   margin-top: 20px;
