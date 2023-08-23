@@ -110,14 +110,14 @@ canvas {
 @media (max-width: 576px) {
   .Nextech-header {
     margin-top:50px;
-      font-size: 3rem;
+      font-size: 4rem;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
   .Nextech-header {
     margin-top:50px;
-      font-size: 3rem;
+      font-size: 4rem;
   }
 }
 
