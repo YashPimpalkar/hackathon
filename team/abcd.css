@@ -1,13 +1,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap');
 
+:root{
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+  
+}
+/* Mobile and tablet styles */
+.logo {
+    max-width: 48px; /* or whatever you'd like for mobile/tablet */
+    width: auto;
+    height: auto;
+}
+
+/* Desktop and larger styles */
+@media (min-width: 992px) {
+    .logo {
+        max-width: 100px;
+    }
+}
+
 
 p,a,h1,h2,h3,h4 {
 	margin: 0;
 	padding: 0;
-}
-.medium-title{
-    font-family: 'Young Serif', serif;
 }
 
 .section-team {
@@ -19,6 +46,9 @@ p,a,h1,h2,h3,h4 {
 	margin-bottom: 50px;
 }
 
+.medium-title{
+    font-family: 'Young Serif', serif;
+}
 .section-team .header-section .small-title {
     margin-bottom: 25px;
 	font-size: 16px;
