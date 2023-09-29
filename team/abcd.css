@@ -18,11 +18,26 @@
   
 }
 /* Mobile and tablet styles */
-.logo {
-    max-width: 48px; /* or whatever you'd like for mobile/tablet */
+.logo{
+    max-width: 100px; /* or whatever you'd like for mobile/tablet */
     width: auto;
     height: auto;
 }
+
+/* Desktop and larger styles */
+@media (min-width: 772px) {
+    .logo{
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+@media (max-width: 772px) {
+    .logo{
+        max-width: 50px;
+        max-height: 50px;
+    }
+}
+
 
 /* Desktop and larger styles */
 @media (min-width: 992px) {
